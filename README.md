@@ -1,11 +1,12 @@
 ### Goal:
 
-Create a standalone component that lists the provided data and allows the client to view in either a 'list' view, or a 'grid' view. You are allowed the creativity of designing the component yourself.
+Create a standalone component that lists the provided data and allows the client to view in either a 'list' view, or a 'grid' view.
 
 ---
 
 #### Requirements:
 
+- The grid/row items must match the design at https://www.figma.com/file/27pUiH9CXEgXka5AR1WUCt/Front-End-Angular-Test?node-id=0%3A1
 - The component must accept an input of Product[]
 - The component must output the clicked item
 - The component must be visually appealing
@@ -26,19 +27,31 @@ Create a standalone component that lists the provided data and allows the client
 
 ```typescript
 export interface Product {
-  id: number;
-  name: string;
+  // Expected value: 1
+  productId: string;
+  // Expected value: http://...
+  imagePath: string;
+  // Expected value: 4.9
+  rating: number;
+  // Expected value: 99
+  percentage: number;
+  // Expected value: 1.2K
+  tags: string;
+  // Expected value: Xiaomi Wifi Extender
+  title: string;
+  // Expected value: 12.00
   price: number;
-  image: string;
+  // Expected value: true
+  ePacket: boolean;
+  // Expected value: new Date()
+  createdAt: Date;
 }
 ```
 
 #### Endpoints:
 
-```typescript
 http://localhost:4200/api/products
-/* Returns an array of type Product */
-```
+(Returns an array of type Product)
 
 #### Expected time:
 
