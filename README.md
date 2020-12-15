@@ -6,7 +6,7 @@ Create a standalone component that lists the provided data and allows the client
 
 #### Requirements:
 
-- The grid/row items must match the design at https://www.figma.com/file/27pUiH9CXEgXka5AR1WUCt/Front-End-Angular-Test?node-id=0%3A1
+- The grid/row items must match the design at https://www.figma.com/file/27pUiH9CXEgXka5AR1WUCt/Front-End-Angular-Test?node-id=0%3A1 (The actions for the item are not important)
 - The component must accept an input of Product[]
 - The component must output the clicked item
 - The component must be visually appealing
