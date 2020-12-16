@@ -1,0 +1,262 @@
+.countBox{
+    max-height: 130px;
+    max-width: 130px;
+    background: white;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888CA9;
+    font-size: 35px;
+}
+
+
+.pd0{
+    padding: 0px;
+}
+
+.pl40{
+    padding-left: 40px;
+    max-width: 70%;
+}
+
+.product_img{
+    max-height: 130px;
+    max-width: 130px;
+    margin-left: 6px;
+    background: white;
+    border-radius: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.spec_container{
+    background: white;
+    border-radius: 14px;
+    margin-left: 6px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.verified_icon{
+    height: 17px;
+    width: 18px;
+    margin-left: 10px;
+}
+
+.days_remaining{
+    background: #F1F2F6;
+    border-radius: 30.6721px;
+    width: 62px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8px;
+    line-height: 11px;
+    height: 19px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #A9B0BE;
+    margin-left: 3px;
+}
+
+.status{
+    width: 56px;
+    height: 19px;
+    background: #F2E6FF;
+    border-radius: 30.6721px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8px;
+    line-height: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #8F23FE;
+    margin-left: 3px;
+}
+
+.prod_head{
+    font-size: 22px;
+    font-weight: 700;
+    color: #3F4457;
+    font-family: Avenir;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.upload_icon{
+    width: 28px;
+    height: 18px;
+    background: #F7E1E1;
+    display: flex;
+    border-radius: 30.75px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+.view_c{
+    width: 28px;
+    height: 18px;
+    background: #F4EEBD;
+    display: flex;
+    border-radius: 30.75px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+.setting{
+    width: 28px;
+    height: 18px;
+    background: #DBFAFF;
+    display: flex;
+    border-radius: 30.75px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.amount{
+    font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.05em;
+
+/* ButtonGreenHover */
+
+color: #0FCB5A;
+}
+
+.action_main{
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+}
+
+.ml15{
+    margin-left: 15px;
+}
+
+.category_icon{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #D3D6DC;
+    margin-right: 14px;
+    margin-left: 2px;
+}
+
+.catagory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_img{
+    max-width: 300px;
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_name_container{
+    max-width: 300px;
+    height: 34px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid gainsboro;
+    
+}
+
+.grid_name{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #3F4457;
+    padding-left: 10px;
+    width: 50%;
+}
+
+.grid_amount{
+    font-family: Colfax;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #3F4457;
+    width: 45%;
+}
+
+.grid_spec{
+    max-width: 300px;
+    height: 34px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.grid_category_icon{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    
+    /* FontStats */
+    
+    color: #D3D6DC;
+}
+
+.grid_spec_image{
+    width: 14px;
+    height: 14px;
+}
+
+.grid_category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.switch_btn{
+    background: white;
+    border: none;
+    height: 34px;
+    border-radius: 14px;
+    font-family: Avenir;
+    cursor: pointer;
+    width: 100px;
+}
